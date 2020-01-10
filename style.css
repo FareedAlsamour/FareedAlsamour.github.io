@@ -1,0 +1,200 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto&display=swap');
+*{
+    margin:0 auto;
+    font-family: Arial, Helvetica, Sans-serif;
+    color: whitesmoke;
+}
+
+p{
+    color: #121212;
+}
+hr{
+   width: 95%;
+   background-color:#81d4fa;
+    height: 1.5px;
+}
+
+
+.nav-wrapper{
+    background-color: #121212;
+}
+#navbar{
+    z-index: 99;
+    position: fixed;
+  top: 0;
+}
+.nav-wrapper a:hover {
+    text-decoration: none;
+}
+
+#main{
+    background-image: url("bglogin.jpg");
+    background-size: cover;
+    min-width: 100%;
+    min-height: 100%;
+    
+}
+
+.container {
+    text-align: center;
+    background-color: rgba(0,0,0,0.7);
+    border-radius: 25px 25px 25px 25px;
+    padding-bottom: 30px;
+    
+}
+#welcome{
+    color: aliceblue;
+}
+
+#cont{
+    text-align: center;
+    background-color: rgba(0,0,0,0.3);
+}
+#content {
+    background-color:#00695c;
+    padding: 5px;
+    border-radius: 5px 5px 5px 5px;
+    width: 95%;
+    text-align: center;
+}
+
+
+.inline {
+    display: inline-block;
+    padding: 10px;
+    vertical-align: top;
+}
+
+.inline ul li {
+    border-left:3px solid #121212;
+    border-right: 3px solid black;
+    border-bottom:2px solid #121212;
+    background-color:#424242;
+    padding: 4px;
+    border-radius: 25px 25px 25px 25px;
+    
+
+}
+.inline ul a:hover {
+    color: cadetblue;
+      text-decoration:none;
+      font-size: 1.2em;
+    
+    }
+td {
+    background-color: azure;
+}
+
+#forums {
+    width:50%;
+    padding-left: 1.3em;
+      padding-right: 1.3em;
+      border-left:solid;
+      border-right: solid;
+
+
+  }
+#apps {
+    width:20%;
+}
+#posts {
+    width: 20%;
+}
+#signup {
+    width: 60%;
+    background-color: rgba(0,0,0,0.5);
+    border-radius: 25px 25px 25px 25px;
+}
+#rightlogo{
+    position: absolute;
+    right: 6%;
+}
+#leftlogo{
+    position: absolute;
+    left: 6%;
+}
+
+h3{
+    background-color: rgba(0,0,0,0.6);
+    border-radius: 15px 15px 15px 15px;
+    width: 30%;
+    margin: auto;
+}
+#footer {
+    background-color: #121212;
+    margin: auto;
+    
+}
+.inline-footer {
+    display: inline-block;
+    width: 24%;
+    margin: auto;
+    padding: 5px;
+    vertical-align: top;
+    text-align: center;
+}
+
+#footer ul a:hover {
+    color: cadetblue;
+      text-decoration:none;
+    
+    }
+
+#alien {
+    vertical-align: bottom;
+    border-radius: 50%;
+}
+
+.fa {
+    font-size: 30px;
+    width: 50px;
+    text-align: center;
+  }
+  /* Add a hover effect if you want */
+  .fa:hover {
+    opacity: 0.7;
+  }
+  
+  /* Twitter */
+  .fa-twitter , .fa-facebook , .fa-google {
+    color: white;
+  }
+
+
+@media screen and (max-width: 50em) {
+
+    
+    #forums , #apps , #posts , #signup , #content {
+            width: 100%;
+            border: 0px;
+            padding: 5px;
+    }
+    .inline-footer{
+        width: 45%;
+        margin: auto;
+        text-align: left;
+    }
+    
+
+ 
+    #leftlogo  {
+        position: static;
+    }
+    #rightlogo {
+        display: none;
+        }
+    h3{
+        width: 90%;
+    }
+}
+@media screen and (max-width: 30em) {
+    .inline-footer{
+        width: 45%;
+        margin: auto;
+        text-align: left;
+        
+    }
+    nav a.button-collapse {
+        display: block;
+    }
+}
